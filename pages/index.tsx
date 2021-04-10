@@ -18,7 +18,7 @@ const IndexPage: NextPage = () => {
           </x.p>
           <x.a mt="24px" px="32px" py="12px" bg="blue" display="inline-block" color="white" fontWeight="600">Co dělám</x.a>
         </x.div>
-        <x.div row mx="-lg">
+        <x.div display="grid" gap="lg" gridTemplateColumns={3}>
           <Card>
             <x.h2 fontWeight="bold">Programování & vývoj na míru</x.h2>
             <x.p mt="sm">
